@@ -17,7 +17,24 @@ character_name[6] # this how u find the index you find the answer by starting fr
  character_age=25
  %=remainder 
  Math.to do math operation
+     #Array
+cats Array ["bee","bear","rocky","nina"] #array
+cats[1]="spooky" #to change index position of an array
+Array.new #new Array without any info yet
+cats[0]="fatty" #to add new strings to an Array
+cats[5]="charlie"
+puts cats
+   
+    #hashes(dictionary) key value pair #
+    states= {"Chicago"=> "il","san Antonio"=>"tx",:london=> "England" } #key and value pair *always have unique keys
+    puts states[chicago] # put in key and it will return value
 
+    #method or functions
+    def say_hi
+    	puts "hello user" #you must call the method by calling. out its name "say_hi"
+    end
+    	
+    
 #calculator#
 puts "enter a number" 
 num1 =gets.chomp.to_f 
